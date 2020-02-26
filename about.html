@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    </script>
+</head>
+
+<body>
+    <style>
+        .about-section {
+            padding-top: 40px;
+        }
+        
+        .about-image {
+            position: relative;
+        }
+        
+        .about-image::before {
+            position: absolute;
+            content: '';
+            background-image: url(https://i.ibb.co/d6KQxz0/dots.jpg);
+            background-position: center center;
+            background-size: 100%;
+            width: 375px;
+            height: 350px;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+        
+        .about-image .single-image {
+            width: 360px;
+        }
+        
+        .float-left {
+            float: left;
+        }
+        
+        .about-image .single-image img {
+            width: 100%;
+        }
+        
+        .about-image .single-image.image-tow {
+            margin-top: -200px;
+            position: relative;
+            z-index: 5;
+        }
+        
+        .about-image .single-image {
+            width: 360px;
+        }
+        
+        .float-right {
+            float: right;
+        }
+        
+        .about-content h3 {
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+            padding-bottom: 10px;
+        }
+        
+        .about-content p {
+            margin-bottom: 0px;
+            line-height: 28px;
+            letter-spacing: 0.5px;
+            color: #646464;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .main-btn {
+            display: inline-block;
+            font-weight: 600;
+            text-align: center;
+            border: 1px solid #eb3656;
+            padding: 0 30px;
+            line-height: 48px;
+            color: #fff;
+            transition: all .8s ease-out 0s;
+            background-color: #eb3656;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        
+        .main-btn:hover {
+            background: #333;
+            color: #fff;
+            border-color: #333;
+            transition: all .8s ease-out 0s;
+            text-decoration: none;
+        }
+    </style>
+    <!-- Header -->
+    <header class="bg-primary text-center py-5 mb-4">
+        <div class="container">
+            <h1 class="font-weight-light text-white">Meet the Team</h1>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow">
+                    <img src=" https://i.pinimg.com/236x/7d/3d/fc/7d3dfc39984833421622b87993a7c3db.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member</h5>
+                        <div class="card-text text-black-50">Web Developer</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 2 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow">
+                    <img src=" https://i.pinimg.com/236x/cf/49/16/cf4916a97ee4d3a0209bc521d3f2e819.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member</h5>
+                        <div class="card-text text-black-50">Web Developer</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 3 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow">
+                    <img src="  https://i.pinimg.com/236x/a5/16/76/a51676e3e082a34835b74a493e5f0166.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member</h5>
+                        <div class="card-text text-black-50">Web Developer</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Team Member 4 -->
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="card border-0 shadow">
+                    <img src=" https://i.pinimg.com/236x/44/b1/74/44b174f75281c65c9232576a6952b26a.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-0">Team Member</h5>
+                        <div class="card-text text-black-50">Web Developer</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-image clearfix">
+                        <div class="single-image float-left">
+                            <img src="https://i.ibb.co/Z89vbqS/2.jpg" alt="">
+                        </div>
+                        <div class="single-image image-tow float-right">
+                            <img src="https://i.ibb.co/vvM7myx/Untitled-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3> Welcome to our ZOMBOY BOOTSTRAP </h3>
+                        <p>"Winter forms our character and brings out our best." "Winter is a season of recovery and preparation." "Winter is not a season, it's a celebration." "Winter is the time for comfort, for good food and warmth, for the touch of a
+                            friendly hand and for a talk beside the fire: it is the time for home."" </p>
+                        <br>
+                        <p> “TWENTY YEARS FROM NOW YOU WILL BE MORE DISAPPOINTED BY THE THINGS YOU DIDN’T DO THAN BY THE ONES YOU DID DO” </p>
+                        <br><br>
+                        <a class="main-btn mt-25 m4" href="map.html">Google Map <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
